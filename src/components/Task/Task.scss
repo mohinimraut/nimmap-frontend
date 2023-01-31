@@ -1,0 +1,20 @@
+.tContainer{
+    margin-top: 70px;
+    .tdata{
+     display:flex;
+     border-bottom:1px solid #EAEAEA;
+  
+     justify-content: space-between;
+     .tDelateBtn{
+        height: 30px;
+        text-transform: capitalize;
+     }
+    }
+    .tUserAdddiv{
+        display: flex;
+        border:1px solid black;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+}
