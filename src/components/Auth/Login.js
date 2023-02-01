@@ -25,7 +25,9 @@ function Login() {
   const handleSubmit=(e)=>{
 e.preventDefault();
 const {name,email,password} =inputs;
-fetch("http://localhost:3000/user/signin",{
+// fetch("http://localhost:3000/user/signin",{
+  fetch("https://sdezv0.csb.app/user/signin",{
+
   method:"POST",
   crossDomain:true,
   headers:{
